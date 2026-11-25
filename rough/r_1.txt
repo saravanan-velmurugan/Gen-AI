@@ -1,0 +1,46 @@
+from langchain_core.documents import Document
+
+docs = [
+    Document(
+        page_content=(
+            "Machine Learning (ML) is a branch of artificial intelligence that enables "
+            "computers to learn patterns from data and make predictions or decisions "
+            "without being explicitly programmed for every task. Common approaches "
+            "include supervised learning, which uses labeled examples; unsupervised "
+            "learning, which finds structure in unlabeled data; and reinforcement "
+            "learning, which learns through actions and rewards. Typical applications "
+            "include fraud detection, recommendation systems, forecasting, and image "
+            "classification. ML projects generally involve collecting and preparing data, "
+            "selecting features and a model, training, evaluating, and monitoring it."
+        ),
+        metadata={"topic": "Machine Learning"},
+    ),
+    Document(
+        page_content=(
+            "Deep Learning (DL) is a subfield of machine learning that uses neural "
+            "networks with multiple layers to learn complex representations from data. "
+            "Neural networks contain interconnected units that transform inputs; training "
+            "adjusts their weights to reduce prediction error. Convolutional neural "
+            "networks are often used for images, while recurrent networks and "
+            "transformer-based models are used for sequences and language. Deep learning "
+            "has enabled advances in computer vision, speech recognition, and generative "
+            "AI. It often requires substantial data and computing resources, and its "
+            "performance depends on suitable training data and evaluation."
+        ),
+        metadata={"topic": "Deep Learning"},
+    ),
+    Document(
+        page_content=(
+            "Natural Language Processing (NLP) is the field of AI concerned with "
+            "analyzing and generating human language. NLP systems work with text or "
+            "speech and may perform tasks such as sentiment analysis, translation, "
+            "summarization, question answering, and named-entity recognition. Traditional "
+            "pipelines may use tokenization, stemming or lemmatization, and statistical "
+            "models. Modern NLP commonly uses transformer models, which learn contextual "
+            "representations from large text collections. NLP applications should be "
+            "evaluated for accuracy, bias, privacy, and performance across different "
+            "languages and user groups."
+        ),
+        metadata={"topic": "NLP"},
+    ),
+]

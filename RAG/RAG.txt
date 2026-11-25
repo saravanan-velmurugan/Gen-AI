@@ -8,7 +8,7 @@ EXAMPLE:
 why not LLM?
     -->It is a foundation model which is already trained with vast amount of data
     to perform text generation tasks.
-    -->It is not having all the information
+    -->It is not having all the information.
     
 
 RAG ARCHITECTURE:
